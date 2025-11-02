@@ -1,18 +1,9 @@
-import { SignedIn, SignedOut, SignIn, UserButton } from "@clerk/clerk-react";
+import React from 'react';
 
 export default function LoginForm() {
   return (
     <div className="flex justify-center items-center h-screen">
-      <SignedOut>
-        <SignIn path="/login" routing="path" signUpUrl="/signup" />
-      </SignedOut>
-
-      <SignedIn>
-        <div className="text-center">
-          <UserButton afterSignOutUrl="/" />
-          <p className="mt-4 text-lg">You're already signed in!</p>
-        </div>
-      </SignedIn>
+      <h1 className="text-3xl font-bold">Login Form Placeholder</h1>
     </div>
   );
 }

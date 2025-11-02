@@ -36,7 +36,7 @@ const mainItems = [
   },
   {
     title: "Interview",
-    url: "/app/interview",
+    url: "https://finallyplaced.vercel.app/dashboard",
     icon: BrainCog,
     active: true,
   },
